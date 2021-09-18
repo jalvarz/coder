@@ -1,0 +1,25 @@
+/* mapas */
+
+$social: (
+   /*Key + Valor*/
+    youtube: #b00,
+    facebook: #3B5998,
+    Instagram: brown,
+
+    encabezado-principal: 20px,
+
+    border-r: 4px,
+
+    family: trebuchet,
+
+    bg-premium: gold,
+    bg-standard: black
+    );
+
+    .plan-premium{
+        background-color: map-get($header, bg-premium);
+        border-radius: map-get($map: header, border-r );
+
+
+
+    }

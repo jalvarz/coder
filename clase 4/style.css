@@ -1,0 +1,86 @@
+/* unidades de medida, 2 grupos
+1 grupo, unidades absolutas
+
+*/
+:root{
+
+    --main-color: blue;
+    --mi-border-radius: 4px;
+
+
+}
+
+p{
+font-size: 40px;  /* pixeles */
+
+}
+
+html{
+    font-size: 22px;
+}
+
+/* unidades relativas
+rem
+r= root = html
+*/
+
+h1{
+font-size:1rem; /* 16 px por default*/
+
+
+}
+
+p{
+font-size: 1rem;
+padding: 0.5rem;
+color: var(--main-color);
+
+}
+
+img{
+
+}
+
+/* unidad relativa em */
+
+.mis-textos{
+font-size:22px;
+padding: 2em;/* 44 */
+border-radius:1.4em;
+
+}
+
+/* rem textos - em para box model - px en general %ancho y %alto y tambien en box model*/
+.img-portada{
+    /* */
+    width: 100%;
+
+}
+.iconos:visited{
+    background-color: violet;
+
+}
+.iconos:active{
+    background-color: yellow;
+}
+.iconos:hover{
+    text-decoration: overline;
+    background-color: red;
+}
+
+.parrafo-magico::first-letter{
+    color: red;
+}
+.parrafo-magico:hover::after{
+    content: 'corazon';
+}
+.parrafo-magico:hover::before{
+    content: 'before';
+}
+
+section p:nth-child(1){
+    color:red;   
+}
+section p:nth-child(4){
+    color:seagreen;
+}

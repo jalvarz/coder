@@ -1,0 +1,67 @@
+/* menu - header*/
+
+ul {
+   list-style: none;
+}
+li {
+   display: inline-block;
+   width: 25%;
+   position:relative;
+   font-size: 15px;
+   color: black;
+}
+
+ul li a:hover {
+   background-color: red;
+   color: white;
+   padding: 4px;
+}
+
+a {
+	text-decoration: none;
+	padding: 4px;
+}
+
+.tituloRojo {
+	color: #ff0303;
+	text-align: right; 
+}
+
+.tituloVerde {
+	color: green;
+	text-decoration: underline;
+
+}
+
+.formatoItalica {
+	font-style: italic;
+	text-align: right;
+	color: red;
+	font-weight: bold;
+}
+
+section{
+	margin: 20px;
+	display: inline-block;
+}
+section article {
+	background-color: #cccccc;
+	width: 500px;
+	height: 300px;
+	padding: 40px;
+}
+
+section article p {
+	line-height: 4;
+}
+
+.otraSeccion {
+	margin: 0px 80px;
+
+}
+
+.otraSeccion h3 {
+	letter-spacing: 2rem;
+	font-size: 2rem;
+
+}

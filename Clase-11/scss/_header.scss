@@ -1,0 +1,31 @@
+@import '../variables';
+
+
+
+header {
+    background-color: black;
+    #nav{
+        border-bottom: 1px solid;
+        border-radius: 6px;
+        ul{
+            li {
+                text-decoration-style:dashed ;
+
+                a{
+                text-decoration: none;
+            
+                
+                &:hover{
+                    text-decoration: underline;
+                }
+                
+
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 968px) {
+        background-color: yellow;
+    }
+}

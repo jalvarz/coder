@@ -1,0 +1,26 @@
+
+/* esto es un comentario*/
+
+p{
+    color:chartreuse;
+
+
+}
+
+.parrafo-uno{
+    color:blue;
+    font-size: 48px;
+
+}
+
+.parrafo-dos{
+    color:red;
+}
+
+.parrafo-tres{
+    color: khaki;
+
+}
+.section-multimedia{
+    background-color: lightseagreen;
+}

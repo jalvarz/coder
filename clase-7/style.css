@@ -1,0 +1,34 @@
+.grid-container{
+    display: grid;
+    /* Definimos filas y columnas*/
+    grid-template-rows: 150px 150px 150px 150px;
+    /*repeat*/
+    grid-template-columns: repeat(8, 1fr);
+    /* border */
+    border: 4px solid black;
+
+    /* Especie de margin entre celdas*/
+    grid-gap: 10px;
+
+
+}
+
+.grid-item{
+    border: 10px solid black;
+
+}
+.grid-item:first-child{
+    /*empiezo y termino en un grid distinto*/
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+
+    /*span*/
+
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}

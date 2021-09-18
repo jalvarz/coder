@@ -1,0 +1,20 @@
+/* Class */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+.parrafo-uno{
+    color: blue;
+    letter-spacing: 60px;
+    line-height: height 20%;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    word-spacing: 8px;
+  /*  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Zen Tokyo Zoo', cursive;
+
+
+
+
+}
+

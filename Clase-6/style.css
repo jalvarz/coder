@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Header */
+.menu-container{
+    color: #fff;
+    background-color: #5995DA;
+    padding:20px 0;
+    /* Habilita los poderes de Flexbox;*/
+    display: flex;
+    /*Alinear horizontalmente */
+    justify-content: space-between;
+
+}
+
+.menu{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-container{
+    color:#5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content:center;
+
+}
+.section{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header */
+
+/* Section two */
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+
+}
+.photo-grid{
+    width:900px;
+    display:flex;
+    justify-content: center;
+    /* Obliga a los elementos que 
+    desbordan a acomodarse en la siguiente fila*/
+    flex-wrap:wrap;
+    flex-direction:row;
+
+
+}
