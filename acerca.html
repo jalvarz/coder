@@ -5,44 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <title>Java Lamps</title>
 </head>
-<body>
-    <header>
-        <img src="images/icon1.jpg" alt="">
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html#inicio">Inicio</a>
-                </li>
-                <li>
-                    <a href="index.html#Modelos">Modelos</a>
-                </li>
-                <li>
-                    <a href="acerca.html">Acerca de</a>
-                </li>    
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="acerca">
-        
-
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/14XxolEJloE?autoplay=1&mute=1&enablejsapi=1" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay=1; clipboard-write=0;mute=1; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-            </iframe>
-            <p class="float-right">
-           
-                Al atardecer, o durante esas noches de inspiración e insomnio, Java Lamps está ahi acompañandote en la introspección
-                que necesitás. Diseñadas en California y construidas en Burzaco
-        </p>
+<body class ="bg-black">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!--Barra navegacion-->  
+    <div class="container bg-dark" >
+        <header>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#modelos">Modelos</a>
+                        <ul>
+                            <li>
+                                <a class="nav-link" href="index.html#classic">Classic</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="index.html#smart">Smart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#prensa">Prensa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+        </header>
+    </div>
+  
+       
+        <div class="row contenido back-color">
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/14XxolEJloE?autoplay=1&mute=1&enablejsapi=1" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay=1; clipboard-write=0;mute=1; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Al atardecer, o durante esas noches de insomnio e inspiración, Java Lamps está ahi acompañandote en la introspección
+                    que necesitás. Diseñadas en California y construidas en Burzaco
+                </p>
+            </div>
+    </div>
     </section>
-    
+   
+</div>
+
 </body>
+
 </html>

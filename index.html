@@ -5,46 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="css/style.css">
     <title>Java Lamps</title>
 </head>
 
-<body>
+<body class ="bg-black">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <!--Barra navegacion-->     
-<div id="grilla">
-    <header class="border">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#inicio">Inicio</a>
-                </li>
-                <li>
-                    <a href="#modelos">Modelos</a>
-                    <ul>
-                        <li>
-                            <a href="#classic">Classic</a>
-                        </li>
-                        <li>
-                            <a href="#smart">Smart</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#prensa">Prensa</a>
-                </li>
-                <li>
-                    <a href="acerca.html">Acerca de</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modelos">Modelos</a>
+                        <ul>
+                            <li>
+                                <a class="nav-link" href="#classic">Classic</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#smart">Smart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prensa">Prensa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+        </header>
+    </div>
 
-    <section id="classic" class="border">
+    <section id="classic" class="contenido">
         <p> 
             Classic Java Lamps 
             <br>
@@ -62,7 +63,7 @@
         </section>
     </section>
 
-    <section id="smart" class="border">
+    <section id="smart">
         <p> 
             Smart Java Lamps 
             <br>
@@ -79,24 +80,22 @@
         </section>
     </section>
 
-    <section id="prensa" class="border">
-        <!-- seccion prensa -->
-        <section id="prensa">
-            <p>
-                Prensa
-                <br>
-                Las nuevas Java Lamp fueron presentadas en el predio de La Rural en el marco del evento ExpoCuelgue2021
-                que se realizó el pasado 29 de Febrero. El modelo HighGreen obtuvo el segundo puesto en categoria
-                "objeto inutil que no puede faltar en tu living" en una ajustada votación realizada por los asistentes.
-            </p>
-        </section>
+    <!-- seccion prensa -->
+    <section id="prensa">
+        <p>
+            Prensa
+            <br>
+            Las nuevas Java Lamp fueron presentadas en el predio de La Rural en el marco del evento ExpoCuelgue2021
+            que se realizó el pasado 29 de Febrero. El modelo HighGreen obtuvo el segundo puesto en categoria
+            "objeto inutil que no puede faltar en tu living" en una ajustada votación realizada por los asistentes.
+        </p>
     </section>
-
-    <footer class="border">
+    
+    <!-- seccion footer -->
+    <footer>
         <a href="https://www.instagram.com/"><i class="fa fa-instagram" style="font-size:36px; color: green;"></i> </a>
         <a href="https://www.facebook.com/"><i class="fa fa-facebook" style="font-size:36px; color: green;"></i> </a>
     </footer>
-</section>
 
 </body>
 </html>
