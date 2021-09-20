@@ -44,40 +44,42 @@
 
 <section id ="contacto">
     <div class = "row contenido">
-    <p>
-    <form action="#">
+    <form id="formulario" >
         <div class="form-group">
-        
-            <label for="nombre">nombre </label>
-            <input type="text" name="nombre" id="nombre">
+            <div>
+                <label for="nombre">Nombre </label>
+                <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+            </div>
             <br>
-            <label for="email">email</label>
-            <input type="email" name="email" id="email">
-             <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="ingrese su mail">
+            </div>
+            <br>
+            <div>
+                <label for="consulta">Consulta</label>
+                <input type="consulta" name="consulta" id="consulta" placeholder="ingresa tu consulta">
+            <br>
+            </div>
+            <br>
+            <div>
+                <label for="tipo de Consulta">Tipo de consulta</label>
+                <select name="" id="tipo">
+                    <option value="comercial">Comercial</option>
+                    <option value="prensa">Prensa</option>
+                </select>
+            </div>
+            <br>
+            <div>
+            <label for="suscripcion">Desea suscribirse?</label>
+            <label class="form-check-input" name="" id="suscribe" for="flexCheckDefault">
+            <br>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-outline-secondary btn-lg" value="Cancelar">Cancelar</button>
+            <button type="buton" class="btn btn-outline-primary btn-lg" value="Enviar">Enviar</button>
             
-            <label for="consulta">consulta</label>
-            <input type="consulta" name="consulta" id="consulta">
-            <br>
-
-            <select name="" id="tipo">
-                <option value="comercial">comercial</option>
-                <option value="prensa">prensa</option>
-            </select>
-            <br>
-
-            <label for="suscripcion">desea suscribirse?</label>
-            <input type="checkbox" name="" id="suscribe">
-            <br>
-
-
-
-            <button type="submit" class="btn btn-secondary">
-            Cancelar
-            </button>
-
-            <button type="submit" class="btn btn-primary">
-            Ingresar
-            </button>
         </div>
 
     </form>
